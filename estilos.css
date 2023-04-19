@@ -1,0 +1,21 @@
+/*modelo caja*/
+.contenedor{
+    margin: auto;
+}
+a,.caja-cero,.caja-dos,.caja-cuatro
+{
+    background: rgb(51, 105, 30);
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: beige; /*Color de la letra*/
+    text-align: center;
+    padding: 10px;
+}
+.caja-uno,.caja-tres{
+    background: white;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
