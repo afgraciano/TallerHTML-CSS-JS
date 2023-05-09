@@ -151,7 +151,7 @@ body{
     .menu__links{
         position: fixed;
         max-width: 400px;
-        width: 100%;
+        width: 100%;  /*Solo se aplica si el ancho<400px*/
         top: 70px;
         bottom: 0;
         right: 0;
@@ -162,7 +162,7 @@ body{
         transform: translateX(100%);
     }
 
-     /*Volver a su propiedad original */
+     /*Que el menú vuelva a su propiedad original */
     .menu__links--show{
         transform: unset;
         width: 100%;
@@ -176,14 +176,14 @@ body{
 
     /*Flecha dentro de menú link */
     .menu__arrow{
-        margin-left: auto;
+        margin-left: auto; /*Mandar a la derecha*/
         margin-right: 20px;
     }
 
     /*submenú dentro del ul */
     .menu__nesting{
         display: grid;
-        position: unset;
+        position: unset; /*Lo regresa a su valor original*/
         width: 100%;
         transform: translateY(0);
         height: 0;
